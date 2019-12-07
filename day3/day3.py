@@ -73,7 +73,6 @@ def move(wire, line, minDistance) :
 def partOne(inputs) :
     global masterMap
     wire1 = inputs[0].split(',')
-    print (masterMap)
     wire2 = inputs[1].split(',')
     minDistance = sys.maxsize
 
