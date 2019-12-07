@@ -56,8 +56,7 @@ def move(wire, line, minDistance) :
   
                 dist = getDistanceFromOrigin(originX, originY, currX, currY)
 
-                if dist < minDistance :
-                    minDistance = dist
+                minDistance = min(minDistance, dist)
 
             if line == 1:
                 # using nested map
